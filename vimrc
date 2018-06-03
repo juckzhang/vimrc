@@ -32,3 +32,17 @@ set nu
 map <C-n> :NERDTreeToggle<CR>
 " close nerdtree when file closed
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" 自动缩进  
+   
+set autoindent    
+set cindent    
+" Tab键的宽度          
+set tabstop=4    
+" 统一缩进为4               
+set tabstop=4
+set expandtab   
+" 搜索字符高亮
+set hlsearch 
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
