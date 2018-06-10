@@ -21,9 +21,11 @@ set nocompatible
   syntax on " 语法高亮
   set nu " 显示行号
   set backspace=indent,eol,start
-  set autoindent " 自动缩进
-  set tabstop=4 " 设置tab为四个空格
-  set expandtab " 空格代替tab制表符
+  set smartindent  
+  set tabstop=4  
+  set shiftwidth=4  
+  set expandtab  
+  set softtabstop=4
   let mapleader = "," 
   
   
