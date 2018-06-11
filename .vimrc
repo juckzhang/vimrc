@@ -14,6 +14,7 @@ set nocompatible
   Plugin 'crooloose/nerdcommenter' " 注释
   Plugin 'sjl/gundo.vim' " 撤销
   Plugin 'w0rp/ale' " 语法检查插件
+  Plugin 'godlygeek/tabular' " 代码对齐
   call vundle#end()
   filetype plugin indent on
   
