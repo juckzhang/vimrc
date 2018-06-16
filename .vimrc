@@ -66,6 +66,16 @@ set nocompatible
   let g:airline#extensions#tabline#enabled = 1
   let g:airline_theme='bubblegum'
   
+  "ultisnips
+  let g:UltiSnipsUsePythonVersion = 2 
+  let g:UltiSnipsExpandTrigger="<tab>"
+  let g:UltiSnipsJumpForwardTrigger="<c-b>"
+  let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+  
+  " youcompleteme
+  let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
+  let g:ycm_key_list_previous_completion = ['<c-p>', '<Up>']
+  
   "ale
   "始终开启标志列
   let g:ale_sign_column_always = 1
